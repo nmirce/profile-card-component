@@ -9,7 +9,7 @@
 .footer a { color: hsl(228, 45%, 44%); }
 
 
-html, body {
+* {
     margin: 0px;
 }
 
@@ -30,10 +30,49 @@ p {
     background: white;
     height: 350px;
     width: 350px;
+    position: relative;
 }
 
 #top {
     height: 120px;
     background-color: blue;
     background-image: url(images/bg-pattern-card.svg)
+}
+
+#picture {
+    text-align: center;
+    margin: 0;
+    border: 0;
+}
+
+img {
+    border-radius: 50px;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    position: absolute;
+}
+
+#info {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.age {
+    padding-left: 10px;
+}
+
+.city {
+    text-align: center;
+}
+
+#numbers {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#text {
+    display: flex;
+    justify-content: space-evenly;
 }
