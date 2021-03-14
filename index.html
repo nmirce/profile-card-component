@@ -1,43 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  <title>Frontend Mentor | Profile card component</title>
-</head>
-<body>
-  <div id="main">
-    <div id="card">
-      <div id="top">
-      </div>
-      <div id="picture">  
-        <img src="images/image-victor.jpg" alt="profile picture">      
-      </div>
-      <div id="bottom">
-        <div id="info">
-          <p class="name">Victor Crest</p>
-          <p class="age">26</p>
-        </div>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/specimen/Kumbh+Sans"
+    />
+    <title>Frontend Mentor | Profile card component</title>
+  </head>
+  <body>
+    <div id="main">
+      <div id="card">
+        <img class="pattern" src="images/bg-pattern-card.svg" alt="pattern" />
+        <img
+          class="profile-pic"
+          src="images/image-victor.jpg"
+          alt="profile picture"
+        />
+        <div id="bottom">
+          <div id="info">
+            <p class="name">Victor Crest</p>
+            <p class="age">26</p>
+          </div>
           <p class="city">London</p>
-        <div id="numbers">
-          <p>80K</p>
-          <p>803K</p>
-          <p>1.4K</p>
+          <hr />
+          <div id="numbers">
+            <p>80K</p>
+            <p>803K</p>
+            <p>1.4K</p>
+          </div>
+          <div id="text">
+            <p>Followers</p>
+            <p>Likes</p>
+            <p>Photos</p>
+          </div>
         </div>
-        <div id="text">
-          <p>Followers</p>
-          <p>Likes</p>
-          <p>Photos</p>
-        </div>  
+      </div>
+      <div class="footer">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Nenad</a>.
       </div>
     </div>
-    <div class="footer">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Nenad</a>.
-    </div>  
-  </div>
-</body>
+  </body>
 </html>
