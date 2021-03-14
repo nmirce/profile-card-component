@@ -1,5 +1,13 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.footer { 
+    font-size: 11px; text-align: center;
+    position: fixed; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+.footer a { color: hsl(228, 45%, 44%); }
+
 
 html, body {
     margin: 0px;
@@ -13,4 +21,11 @@ html, body {
 
 p {
     margin: 0px;
+}
+
+#card {
+    display: inline-block;
+    background: white;
+    height: 350px;
+    width: 350px;
 }
