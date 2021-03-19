@@ -51,7 +51,7 @@ img.pattern {
     border-radius: 15px 15px 0 0;
 }
 
-#info {
+#person {
     display: flex;
     justify-content: center;
     padding-top: 200px;
@@ -65,7 +65,7 @@ img.pattern {
 
 .age {
     padding-left: 10px;
-    padding-top: 1px;
+    font-size: 18px;
     font-weight: 400;
     color: hsl(0, 0%, 59%);
 }
@@ -81,23 +81,61 @@ hr {
   opacity: 40%;
 }
 
+/* #text {
+    box-sizing: border-box;
+    display: flex;
+    justify-content:space-evenly;
+}
+
 #numbers {
     display: flex;
     justify-content: space-evenly;
     margin-top: 20px;
     font-weight: 700;
     font-size: 18px;
+} */
+
+#info {
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    justify-items: center;
+    align-items: center;
+    row-gap: 5px;
 }
 
-#text {
-    display: flex;
-    justify-content: space-evenly;
+.followers-num {
+    grid-column: 1;
+    grid-row: 1;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.likes-num {
+    grid-column: 2;
+    grid-row: 1;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.photos-num {
+    grid-column: 3;
+    grid-row: 1;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .followers {
-    padding-left: 0px;
+    grid-column: 1;
+    grid-row: 2;
 }
 
 .likes {
-    padding-right: px;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.photos {
+    grid-column: 3;
+    grid-row: 2;
 }
