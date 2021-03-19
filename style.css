@@ -65,7 +65,9 @@ img.pattern {
 
 .age {
     padding-left: 10px;
+    padding-top: 1px;
     font-weight: 400;
+    color: hsl(0, 0%, 59%);
 }
 
 .city {
@@ -90,4 +92,12 @@ hr {
 #text {
     display: flex;
     justify-content: space-evenly;
+}
+
+.followers {
+    padding-left: 0px;
+}
+
+.likes {
+    padding-right: px;
 }
